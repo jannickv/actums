@@ -128,6 +128,6 @@ $len = count($blocks);
     
     <?php endif; ?>
     <div id="costPrint">
-        <a href="#">Print Overzicht</a>
+        <a href="#" onclick="window.print()">Print Overzicht</a>
     </div>
 </div>
