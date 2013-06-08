@@ -1,0 +1,236 @@
+@import url('http://fonts.googleapis.com/css?family=Ubuntu:700,400');
+
+body {
+	background-color: #E8E8E8;
+	min-width: 960px;
+	font-family: 'Ubuntu', Arial;
+	color: #666;
+	font-size:16px;
+        padding-top:70px;
+	
+}
+#header {
+	width: 100%;
+	position: relative;
+	min-width: 960px;
+	height: 191px;
+	/*margin-top: 70px;*/
+	background-repeat: repeat-x;
+	background-image: url(../images/band.jpg);
+}
+#headershadow {
+	height: 60px;
+	width: 100%;
+	position: relative;
+	background-image: url(../images/schaduw_onder.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+#header #headerimage {
+	background-image: url(../images/logo.jpg);
+	background-position: center top;
+	height: 191px;
+	background-repeat: no-repeat;
+}
+#footer {
+	background-image: url(../images/schaduw-footer.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 90px;
+	position: relative;
+	padding-top: 40px;
+	text-align: center;
+	font-size:14px;
+}
+#content form input[type="text"], #content form input[type="password"]  {
+	border: 1px solid #FFF;
+	width: 211px;
+	height: 31px;
+	box-shadow:inset 0 1px 1px rgba(0,0,0,0.42);
+	border-radius:5px;
+	margin-bottom: 10px;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	margin-right: 20px;
+}
+#content {
+	width: 700px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 24px;
+	margin-bottom: 33px;
+}
+#content form label {
+	width: 110px;
+	padding-left: 30px;
+	display: inline-block;
+	position: relative;
+}
+#content #of {
+	position: absolute;
+	left: 397px;
+	top: 5px;
+	font-size: 60px;
+}
+#registreerbutton {
+	position: absolute;
+	left: 483px;
+	top: 15px;
+	background-image: url(../images/registreer.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: transparent;
+	height: 44px;
+	width: 161px;
+}
+#registreerbutton:hover {
+	background-position: -161px top;
+}
+
+
+#lostpasswordbutton {
+	margin-left: 140px;
+	font-size:12px;
+}
+
+
+
+a:link, a:visited
+{
+	color:#666666;
+}
+	
+#footer #extra {
+	margin-bottom: 20px;
+}
+#footer #extra a:link{
+	
+	text-decoration:underline;
+	padding-right: 6px;
+	padding-left: 6px;
+}
+#submitlogin {
+	margin-left: 140px;
+	margin-top: 10px;
+	width: 57px;
+	height:29px;
+	background-image: url(../images/klaar.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	border: none;
+	background-color: transparent;
+	display: inline-block;
+	cursor: pointer;
+}
+	
+#submitlogin:hover {
+	background-position: -57px top;
+}
+#loginform {
+	width: 700px;
+	position: relative;
+	float: left;
+}
+#login {
+    position: relative;
+}
+#slidercontent {
+	position: relative;
+	width: 2100px;
+}
+#registreerform {
+	width: 700px;
+	position: relative;
+	float: left;
+}
+#sliderwrapper {
+	overflow: hidden;
+	width: auto;
+}
+#algemenevoorwaarden {
+	float: left;
+	width: 700px;
+	position: relative;
+}
+#algemenevoorwaarden textarea {
+	width: 540px;
+	height: 190px;
+	margin: 0 70px 10px 70px;
+	color: #666;
+}
+#algemenevoorwaarden input[type="checkbox"] {
+	margin-left: 500px;
+}
+#algemenevoorwaarden textarea:first-line {
+	font-weight: bold;
+}
+#registreerform form {
+	margin-left: 119px;
+        padding-bottom: 30px;
+}
+#submitregistration{
+	width: 57px;
+	height:29px;
+	background-image: url(../images/klaar.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	border: none;
+	background-color: transparent;
+	display: inline-block;
+	cursor: pointer;
+	vertical-align:top;
+	margin-top:3px;
+	}
+#submitregistration:hover{
+	background-position: -57px top;
+}
+
+#passBlock
+{
+    position: absolute;
+    top: 0;
+    left: 360px;
+}
+
+h1
+{
+    font-size: 20px;
+    text-align: center;
+}
+
+#reLogin
+{
+    margin-left: 295px;
+    text-align: center;
+}
+
+.error
+{
+    color: #c41010;
+    margin-left: 140px;
+    font-size: 12px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.success {
+    color: #009900;
+    margin-left: 140px;
+    font-size: 12px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.regError
+{
+    color: #c41010;
+    font-size: 12px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    display: block;
+}
