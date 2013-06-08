@@ -6,7 +6,7 @@ $len = count($blocks);
 ?>
 <div id="chronologie">
     <hr />
-    &nbsp;&nbsp;Filter op start- en einddatum:&nbsp;&nbsp;
+    <span>Filter op start- en einddatum:</span>
     <label>startdatum: </label>
     <input id="coststart" class="datepicker" type="text" value="" name="enddate">&nbsp;&nbsp;
     <label>einddatum: </label>

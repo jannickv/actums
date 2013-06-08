@@ -1,0 +1,37 @@
+#header, #breadcrumbs, hr:nth-child(1), #info, #footer, #costPrint, input[type=submit], #chronologie span{
+	display: none;
+
+}
+
+#costTable{
+    font-size: 12px;
+    width: 100%
+}
+#costTable thead{
+    font-size: 16px;
+}
+
+#costTable td, th{
+    border-left: 1px solid #999;
+    padding:5px;
+}
+#costTable td:first-child, th:first-child{
+    border-left: none;
+}
+#costTable th{
+    border-bottom: 1px solid #999;
+}
+#costTable td:nth-of-type(6),#costTable td:nth-of-type(7),#costTable td:nth-of-type(8){
+    text-align: center;
+}
+#costTable tr:nth-of-type(even){
+    background-color: #D8D8D8;
+}
+#costPrint {
+    text-align: center;
+    font-size: 14px;
+}
+
+input{
+	border: 0;
+}
