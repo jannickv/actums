@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="<?php echo (base_url() . 'assets/css/reset.css'); ?>"/>
     <link rel="stylesheet" href="<?php echo (base_url() . 'assets/css/base.css'); ?>"/>
     <link rel="stylesheet" href="<?php echo (base_url() . 'assets/css/style.css'); ?>" media="screen"/>
+    <link rel="stylesheet" href="<?php echo (base_url() . 'assets/css/print.css'); ?>" media="print"/>
     <link rel="stylesheet" href="<?php echo (base_url() . 'assets/css/style-2X.css'); ?>" media="only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)"/>
     <link rel="stylesheet" href="<?php echo (base_url() . 'assets/css/jquery-ui.css'); ?>"/>
     <link rel="stylesheet" type="text/css" href="<?php echo (base_url() . 'assets/css/validationEngine.jquery.css');?>"/>
